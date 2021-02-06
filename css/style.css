@@ -1,0 +1,34 @@
+nav{
+    transition: box-shadow 0.5s;
+}
+.imgs{
+    transition: box-shadow 0.5s;
+}
+.imgs:hover {
+    box-shadow: 0rem 1rem 2rem black;
+}
+i{
+    transition: color 0.3s;
+
+}
+header i{
+    font-size: 3rem;
+    color: #212529;
+}
+i:hover{
+    color: #0D6EFD;
+}
+.hr span{
+    font-size: 3rem;
+    position: relative;
+    top: 18px;
+}
+.break{
+    height: 2px;
+}
+@media(max-width :768px	)
+{
+    .main-img{
+        width: 50%;
+    }
+}
